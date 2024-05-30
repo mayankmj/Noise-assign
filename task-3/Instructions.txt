@@ -1,0 +1,9 @@
+Task 2:
+Enable ingress in minkube
+Step1: Minikube has an in-built addon (run minikube addons enable ingress)
+Step2: Verify ingress controller is running or not( run kubectl get pods -n kube-system)
+Step3: Deploy ingress.yaml 
+Step4: Apply the ingress configuration (run kubectl apply -f ingress.yaml)
+Step5: Add host entry  (Edit /etc/hosts) to map "hello-world" to minikube ip
+Step6: Run minikube ip to check is the mapping is correct or not
+Step7: curl http://hello-world.local

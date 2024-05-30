@@ -1,0 +1,13 @@
+Build Image and push to ecr
+Step1: Docker login
+Step2: Install aws cli
+Step3: Configure aws (using secret key, accesskey)
+step4: Create an index.html
+step5: write Dockerfile
+step6: docker -t build image_name .
+step7: docker run -d -p 80:80 image_name
+Step8: Retrieve an authentication token and authenticate your Docker client
+step9: Tag docker image 
+step10: push docker image ecr repo link
+
+

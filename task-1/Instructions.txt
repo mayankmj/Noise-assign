@@ -1,0 +1,10 @@
+Task 1:
+1. Kubernetes Cluster Configuration:
+Step1: Install Minikube
+Step2: Install kubectl
+Step3: Write cluster.yaml file
+Step4: Deploy the cluster (using kubectl apply -f cluster.yaml)
+Step5: Verify the deployment(using Kubectl get pods)
+step6: To access the niginx application do port configurations 
+
+Attaching sample cluster.yaml file
